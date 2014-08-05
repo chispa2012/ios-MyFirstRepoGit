@@ -19,6 +19,8 @@
 		5DD92E4E19915E6C00402A8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD92E3619915E6C00402A8E /* UIKit.framework */; };
 		5DD92E5619915E6C00402A8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DD92E5419915E6C00402A8E /* InfoPlist.strings */; };
 		5DD92E5819915E6C00402A8E /* TestRepoGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD92E5719915E6C00402A8E /* TestRepoGitTests.m */; };
+		5DD92E641991725700402A8E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD92E621991725700402A8E /* HomeViewController.m */; };
+		5DD92E651991725700402A8E /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DD92E631991725700402A8E /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		5DD92E5319915E6C00402A8E /* TestRepoGitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestRepoGitTests-Info.plist"; sourceTree = "<group>"; };
 		5DD92E5519915E6C00402A8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5DD92E5719915E6C00402A8E /* TestRepoGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRepoGitTests.m; sourceTree = "<group>"; };
+		5DD92E611991725700402A8E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		5DD92E621991725700402A8E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		5DD92E631991725700402A8E /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				5DD92E4119915E6C00402A8E /* AppDelegate.h */,
 				5DD92E4219915E6C00402A8E /* AppDelegate.m */,
+				5DD92E611991725700402A8E /* HomeViewController.h */,
+				5DD92E621991725700402A8E /* HomeViewController.m */,
+				5DD92E631991725700402A8E /* HomeViewController.xib */,
 				5DD92E4419915E6C00402A8E /* Images.xcassets */,
 				5DD92E3919915E6C00402A8E /* Supporting Files */,
 			);
@@ -221,6 +229,7 @@
 			files = (
 				5DD92E3D19915E6C00402A8E /* InfoPlist.strings in Resources */,
 				5DD92E4519915E6C00402A8E /* Images.xcassets in Resources */,
+				5DD92E651991725700402A8E /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +250,7 @@
 			files = (
 				5DD92E4319915E6C00402A8E /* AppDelegate.m in Sources */,
 				5DD92E3F19915E6C00402A8E /* main.m in Sources */,
+				5DD92E641991725700402A8E /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +447,7 @@
 				5DD92E5D19915E6C00402A8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DD92E5E19915E6C00402A8E /* Build configuration list for PBXNativeTarget "TestRepoGitTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +456,7 @@
 				5DD92E6019915E6C00402A8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
